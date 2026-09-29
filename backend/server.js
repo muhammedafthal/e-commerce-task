@@ -19,7 +19,7 @@ app.use(cookieParser());
 // Middleware
 app.use(
   cors({
-    origin: "e-commerce-task-theta.vercel.app",
+    origin: "https://e-commerce-task-theta.vercel.app",
     credentials: true, // Allow cookies or authorization headers if needed
   }),
 );
